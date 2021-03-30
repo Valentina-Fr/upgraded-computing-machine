@@ -1,0 +1,60 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial;
+}
+
+.container{
+  width: 800px;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: rgba(1,1,1,0.5);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.logo{
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+header > h1{
+  color: rgb(50, 205, 50);
+  text-align: center;
+}
+
+nav{
+  width: 650px;
+  margin: auto;
+  background-color: rgb(50, 205, 50);
+  text-align: center;
+  padding: 5px;
+}
+
+div > h2{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.chargebar{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.orange{
+  width: 250px;
+  background: orange;
+}
+
+.green{
+  width: 350px;
+  background: rgb(50, 205, 50);
+}
+
+.red{
+  width: 80px;
+  background: red;
+}
